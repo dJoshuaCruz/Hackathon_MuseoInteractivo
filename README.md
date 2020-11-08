@@ -1,1 +1,45 @@
-# Hackathon_MuseoInteractivo
+# Museo Interactivo
+
+## Descripción del Proyecto
+El Museo Interactivo es un proyecto con enfoque cultural que busca el enlace con las herramientas de inteligencia artificial como reconocimiento de voz y de imagen, para ampliar el conocimiento sobre las tradiciones mexicanas.
+
+## Que hace el proyecto
+El Museo virtual es capaz de interactuar con el usuario a través de voz y procesamiento de imágenes.
+Se le pueden hacer preguntas generales ("quien eres, como estas, hola, etc..."), preguntas acerca el día de muertos y preguntas acerca de ciertas artesanías prehispánicas de la región centro del país (Qro, Gto, EdoMex) todo esto a través de voz.
+De igual manera le puedes mostrar imágenes alusivas al día de muertos (pan de muerto, cempasúchil, etc...) o artesanías prehispánicas y el museo te conesta con una explicación a través de un sintetizador de voz.
+
+
+## Como funciona (Tecnologías utilizadas)?
+
+Las tecnologías utilizadas fueron:
+  * Azure Speech Recognition
+  * Azure Speech to Text
+  * Azure Text to Speech
+  * Azure Custom Vision
+  * Azure QnA
+  
+ 
+ ## Como lo hace?
+ 
+El código esta escrito en C#, se escogió este lenguaje debido a que al ser parte de Microsoft, se garantiza un 100% de compatibilidad con azure, y además porque el IDE te proporciona un entorno para el diseño de la GUI.
+Se mandan a llamar las tecnologías a través de APIs utilizando funciones POST y recibiendo un onjeto JSON con la respuesta del servidor.
+
+Primeramente se entrenó un QnA con varias preguntas (Ver archivo en Azure/QnA/)
+Para poder interpretar la pregunta del usuario, se utiliza Azure Speech, de esta forma se pasa lo que dice el usuario 
+ 
+ 
+ ## Retos
+ 
+ 
+ ## Que aprendimos?
+Desde un inicio aprendimos a plasmar nuetras ideas, ya que desde un incio se nos complico el aterrizarlas, saber que era lo que queriamos crear, aprendimos a trabajar en equipo y no fue complicado, ya que todos tuvimos la iniciativa de trabajar y aportar en lo que podiamos.
+Aprendimos a solucionar diversos problemas que fuimos teniendo en el proyecto pero cada uno fue solucionado, asi obteniendo mucha mas experiencia, sobre los servicios cognitivos, saber como y cuando utilizarlos.
+
+ ## Que sigue?
+Nuestro proyecto fue pensado para ser escalable en diversas áreas, desde las culturales, para estar en museos físicos y agregar un plus a estos creando una experiencia más atractiva para todas las personas que lo visiten, añadiendo tradiciones y costumbres típicas de cada zona del país para poder hacer más diversa la información, hasta estar ubicado en plazas comerciales en la que los usuarios puedan hacer preguntas de los productos o servicios que estén en ese entorno
+ 
+ ## Integrantes (Nombre - Email)
+
+
+
+Impulsar el reconocimiento de nuestras tradiciones mexicanas a través de la digitalización 
