@@ -60,9 +60,10 @@ Aprendimos a solucionar diversos problemas que fuimos teniendo en el proyecto pe
 Nuestro proyecto fue pensado para ser escalable en diversas áreas, desde las culturales, para estar en museos físicos y agregar un plus a estos creando una experiencia más atractiva para todas las personas que lo visiten, añadiendo tradiciones y costumbres típicas de cada zona del país para poder hacer más diversa la información, hasta estar ubicado en plazas comerciales en la que los usuarios puedan hacer preguntas de los productos o servicios que estén en ese entorno
  
  ## Integrantes (Nombre - Email)
-Celeste Estefanía Tello Argüelles  viajero31354@innovaccion.mx
-Diego Joshua Cruz Rojas            viajero27493@innovaccion.mx 
-Juan Jose Retana Gonzalez          viajero02370@innovaccion.mx 
-Augusto López Ruiz                 viajero08260@innovaccion.mx
+ 
+* Celeste Estefanía Tello Argüelles  viajero31354@innovaccion.mx
+* Diego Joshua Cruz Rojas            viajero27493@innovaccion.mx 
+* Juan Jose Retana Gonzalez          viajero02370@innovaccion.mx 
+* Augusto López Ruiz                 viajero08260@innovaccion.mx
 
 
