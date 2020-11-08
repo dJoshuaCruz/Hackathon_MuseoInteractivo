@@ -24,9 +24,8 @@ Las tecnologías utilizadas fueron:
 El código esta escrito en C#, se escogió este lenguaje debido a que al ser parte de Microsoft, se garantiza un 100% de compatibilidad con azure, y además porque el IDE te proporciona un entorno para el diseño de la GUI.
 Se mandan a llamar las tecnologías a través de APIs utilizando funciones POST y recibiendo un onjeto JSON con la respuesta del servidor.
 
-Primeramente se entrenó un QnA con varias preguntas (Ver archivo en Azure/QnA/)
-Para poder interpretar la pregunta del usuario, se utiliza Azure Speech, de esta forma se pasa lo que dice el usuario a texto
-Para poder lee
+Se entrenó un QnA con varias preguntas (Ver archivo en Azure/QnA/)
+Se entrenó un CustomVision con varias imágenes alusivas a día de muertos y aretesanías
 
 Secuencia Voz:
  1) Se enciende Microfono
