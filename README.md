@@ -40,7 +40,9 @@ Secuencia Voz:
  2) Se captura la imágen del objeto
  3) Se convierte la imagen a un arreglo de bytes
  4) Se envia el arreglo de bytes a través de un API a Azure.ImageRecognition
- 5) 
+ 5) Se filtra el JSON de respuesta
+ 6) La respuesta de Azure.ImageRecognition se envía al QnA a través de un API
+ 7) A través de Azure.TextToSpeech se menciona al usurio la respuesta
  
  
  ## Retos
