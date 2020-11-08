@@ -1,5 +1,6 @@
 # Museo Interactivo
 
+
 ## Descripción del Proyecto
 El Museo Interactivo es un proyecto con enfoque cultural que busca el enlace con las herramientas de inteligencia artificial como reconocimiento de voz y de imagen, para ampliar el conocimiento sobre las tradiciones mexicanas.
 
@@ -45,7 +46,9 @@ Secuencia Voz:
  
  
  ## Retos
- 
+En un inicio el concepto estaba claro lo que se quería hacer, en base a esto sabíamos que teníamos todo lo necesario para ejecutar la idea, el principal problema fue juntar todos los recursos en uno solo.
+ *Averiguar como ensamblar todos los componentes que ya teníamos.
+ *Convertir la respuesta al idioma español
  
  ## Qué aprendimos?
 Desde un inicio aprendimos a plasmar nuetras ideas, ya que desde un incio se nos complico el aterrizarlas, saber que era lo que queriamos crear, aprendimos a trabajar en equipo y no fue complicado, ya que todos tuvimos la iniciativa de trabajar y aportar en lo que podiamos.
