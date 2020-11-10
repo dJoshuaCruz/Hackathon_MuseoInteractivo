@@ -30,7 +30,7 @@ namespace MuseoInteractivo
         private VideoCaptureDevice MiWebCam;
         private bool HayDispositivos;
         private FilterInfoCollection MisDispositivios;
-        private string Path = @"D:\Hackaton\MuseoInteractivo_Entrega_Chido\MuseoInteractivo\MuseoInteractivo\Pictures\";
+        private string Path = @".\";
 
         public Form1()
         {
@@ -274,7 +274,7 @@ namespace MuseoInteractivo
         {
             GuardaFotoLocal();
             String jsonStr = "";
-          string path = @"D:\Hackaton\MuseoInteractivo_Entrega_Chido\MuseoInteractivo\MuseoInteractivo\Pictures\";
+          string path = @".\";
           jsonStr = await MakePredictionRequest(path + "hdeleon.jpg");
 
             axWindowsMediaPlayer1.URL = "D:/Hackaton/InnovaccionVirtual/CodigoCS/InteractiveMuseum/InteractiveMuseum/InteractiveMuseum/Banners/listeningSpeak.mp4";
@@ -303,6 +303,11 @@ namespace MuseoInteractivo
 
             timerCamara.Stop();
 
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
